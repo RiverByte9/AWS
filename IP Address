@@ -1,0 +1,34 @@
+IP Addressing💻
+ 
+An IP (Internet Protocol) Address is a unique in nature and used for having proper communication between 2 devices.
+ 
+There are two types of IP addresses-
+ 
+IPv4 (Internet Protocol version 4): Consists of four 8-bit numbers (ranging from 0 to 255), separated by dots (e.g., 192.168.1.1).
+ 
+IPv6 (Internet Protocol version 6): Introduced due to the exhaustion of IPv4 addresses, IPv6 consists of eight groups of four hexadecimal digits, separated by colons (e.g., 2001:0db8:85a3:0000:0000:8a2e:0370:7334).
+
+IP Address Classes and Ranges
+IPv4 addresses range from 0.0.0.0 to 255.255.255.255. They are divided into five classes: A, B, C, D, and E.
+
+Class A- 1.0.0.0 to 126.255.255.255
+Class B- 128.0.0.0 to 191.255.255.255
+Class C- 192.0.0.0 to 223.255.255.255
+Class D and E is not commonly used they are reserved for specific purpose.
+
+Loopback Address- 127 is skipped here. 127.0.0.1 is reserved for loopback which pings it own device only.
+
+Public vs Private IP Addresses
+
+1. Public IP Addresses
+ 
+Definition: A public IP address is an IP address that is accessible over the internet. It is unique across the entire internet.
+Purpose: Public IP addresses are used to allow devices to communicate directly across the global internet. Every device that connects to the internet (e.g., routers, servers, websites) must have a public IP address.
+
+2. Private IP Addresses
+ 
+Definition: A private IP address is an IP address that is used within a private network (e.g., home, corporate network). These addresses are not routable on the public internet.
+Purpose: Private IP addresses are used for local communication within a network. Devices inside a network (e.g., computers, printers, phones) use private IP addresses to communicate with each other.
+
+Network Addresses Translation(NAT)
+NAT enables multiple devices to access the Internet using a single public IP address. This is accomplished by translating private IP address into a public IP address.
