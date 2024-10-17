@@ -1,0 +1,34 @@
+𝐀𝐖𝐒 𝐕𝐏𝐂
+
+𝐕𝐢𝐫𝐭𝐮𝐚𝐥 𝐏𝐫𝐢𝐯𝐚𝐭𝐞 𝐂𝐥𝐨𝐮𝐝 (𝐕𝐏𝐂)
+A VPC is a private, isolated section of the cloud where you can define and control your networking environment. Within a VPC you can launch and manage cloud resources.
+
+𝑪𝒓𝒆𝒂𝒕𝒊𝒏𝒈 𝑽𝑷𝑪
+
+Go to the AWS Management Console.
+Navigate to the VPC dashboard.
+Click on "Create VPC" and specify the VPC details such as CIDR block. 
+
+𝐒𝐮𝐛𝐧𝐞𝐭
+A subnet (subnetwork) is a segment of your VPC that divides the larger VPC network into smaller, more manageable sections. Each subnet is assigned a range of IP addresses and can either be public (accessible from the internet) or private (isolated from the internet).
+
+𝑪𝒓𝒆𝒂𝒕𝒊𝒏𝒈 𝑺𝒖𝒃𝒏𝒆𝒕𝒔
+Navigate to the VPC dashboard.
+Click on "Subnets" and then "Create Subnet".
+Specify the subnet details including CIDR block and Availability Zone (AZ).
+
+𝐈𝐧𝐭𝐞𝐫𝐧𝐞𝐭 𝐆𝐚𝐭𝐞𝐰𝐚𝐲(𝐈𝐆𝐖)
+Allows communication between instances in your VPC and the internet.
+
+𝑻𝒐 𝒄𝒓𝒆𝒂𝒕𝒆 𝒂𝒏 𝑰𝒏𝒕𝒆𝒓𝒏𝒆𝒕 𝑮𝒂𝒕𝒆𝒘𝒂𝒚:
+Navigate to the VPC dashboard.
+Click on "Internet Gateways" and then "Create Internet Gateway".
+Attach the Internet Gateway to your VPC.
+
+𝐑𝐨𝐮𝐭𝐢𝐧𝐠 𝐓𝐚𝐛𝐥𝐞𝐬:
+Routing tables are essential for directing network traffic within your VPC. Routes can be set up to handle internal traffic between subnets or to other network services.
+
+𝑻𝒐 𝒄𝒓𝒆𝒂𝒕𝒆 𝒂 𝒓𝒐𝒖𝒕𝒊𝒏𝒈 𝒕𝒂𝒃𝒍𝒆:
+Navigate to the VPC dashboard.
+Click on "Route Tables" and then "Create Route Table".
+Define the routing rules, ensuring that traffic flows efficiently and securely to its intended destination. 
